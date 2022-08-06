@@ -49,3 +49,33 @@
     height: 200px;
     background-color: blue;
 }
+
+/* header styles */
+.header-wraper {
+    background-color: lightblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item {
+    display: flex;
+}
+.burger-bar {
+   
+    display: none;
+}
+
+
+/* icons */
+.fa-facebook-messenger {
+    color: blue;
+    font-size: 35px;
+}
+.youtubeIcon {
+    color: red;
+    font-size: 35px;
+}
+.fa-facebook-messenger:hover {
+    color: #fff;
+}

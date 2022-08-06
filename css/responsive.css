@@ -90,6 +90,15 @@
     }
 }
 @media (max-width: 480px) {
+    .navigation {
+        display: none;
+    }
+    .burger-bar {
+        display: block;
+        color:red;
+        font-size: 25px;
+        margin: 5px;
+    }
     .image-block {
         width: 100%;
     }
