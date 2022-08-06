@@ -1,0 +1,51 @@
+.wraper-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.block01:nth-child(1) {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+.block01:nth-child(2) {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+.block01:nth-child(3) {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
+.block01:nth-child(4) {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+}
+
+
+
+/* image example */
+.image-wraper {
+    display: flex;
+    justify-content: space-between;
+}
+.image-block {
+    width: 250px;
+}
+.image-block .image{
+    width: 100%;
+    display: block;
+}
+.image-block p {
+    background-color: yellow;
+}
+
+.container {
+    max-width: 1170px;
+    width: 80%;
+    margin: 0 auto;
+    height: 200px;
+    background-color: blue;
+}
